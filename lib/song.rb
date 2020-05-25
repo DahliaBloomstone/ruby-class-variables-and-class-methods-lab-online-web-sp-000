@@ -42,3 +42,6 @@ end
 
 Song.genre_count
 Song.artist_count
+Song.count
+Song.artists
+Song.genres
