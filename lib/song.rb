@@ -39,3 +39,6 @@ def self.artist_count
 end
 
 end
+
+Song.genre_count
+Song.artist_count
