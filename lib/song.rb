@@ -2,13 +2,13 @@ class Song
   @@count = 0
 attr_accessor :name, :artist, :genre
 
-GENRES = []
 def initialize
   @@count += 1
+  @@genres = []
   @genre = genre
-  if GENRES.include?(genre)
+  if @@genres.include?(genre)
   else
-    GENRES << genre
+    @@genres << genre
   end
 end
 
