@@ -18,7 +18,9 @@ end
 end
 
 def self.class_method_genres
-
+@@genres
+end
+end 
 
 
 end
