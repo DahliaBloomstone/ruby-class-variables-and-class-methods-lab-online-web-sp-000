@@ -1,17 +1,21 @@
 class Song
+
 attr_accessor :name, :artist, :genre
 @@count = 0
+@@artists = []
+@@genres = []
 
-
-def initialize
-  @@count += 1
-  @@genres = []
-  @genre = genre
-  if @@genres.include?(genre)
-  else
-    @@genres << genre
-  end
+def initialize(song_name, artist, genre)
+@name = song_name
+@artist = artist
+@genre = genre
+@@count += 1
+@@artists << artist
+@@genres << genre
 end
+
+
+ 
 
 def self.class_method_count
   @@count
