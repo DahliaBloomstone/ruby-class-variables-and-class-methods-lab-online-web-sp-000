@@ -26,5 +26,8 @@ def self.artists
   @@artists.uniq
 end
 
-
-end
+def self.genre_count
+  genre_count = Hash.new(0)
+  @@genres.each {|genre| genre_count[genre] += 1}
+  genre_count
+end 
