@@ -1,6 +1,7 @@
 class Song
-  @@count = 0
 attr_accessor :name, :artist, :genre
+@@count = 0
+
 
 def initialize
   @@count += 1
@@ -25,7 +26,7 @@ end
 def self.class_method_artists
   @@artists
 end
-end 
+end
 
 
 end
