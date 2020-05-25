@@ -14,20 +14,15 @@ def initialize(song_name, artist, genre)
 @@genres << genre
 end
 
-
- 
-
-def self.class_method_count
+def self.count
   @@count
 end
-end
 
-def self.class_method_genres
+def self.genres
 @@genres
 end
-end
 
-def self.class_method_artists
+def self.artists
   @@artists
 end
 end
